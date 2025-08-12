@@ -1,5 +1,6 @@
 import express from 'express'
 
+
 const app = express();
 
 
@@ -8,6 +9,6 @@ app.get('/', (req, res) => {
 })
 
 
-app.listen(3000, () => {
-    console.log('running')
+app.listen(9090, () => {
+    console.log('server is running on port 9090')
 })
